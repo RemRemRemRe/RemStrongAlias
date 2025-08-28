@@ -14,5 +14,13 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
-	"EnabledByDefault": true
+	"EnabledByDefault": false,
+	"BuiltInInitialFeatureState": "Active",
+	"Modules": [
+		{
+			"Name": "RemStrongAlias",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
