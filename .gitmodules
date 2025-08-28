@@ -1,0 +1,3 @@
+[submodule "Source/ThirdParty/strong_alias"]
+	path = Source/ThirdParty/strong_alias
+	url = https://github.com/FabienPean/strong_alias
