@@ -13,6 +13,8 @@ public class RemStrongAlias : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			[
 				"Core",
+
+				"strong_alias",
 			]
 		);
 	}
