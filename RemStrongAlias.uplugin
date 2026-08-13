@@ -21,6 +21,11 @@
             "Name": "RemStrongAlias",
             "Type": "Runtime",
             "LoadingPhase": "Default"
+        },
+        {
+            "Name": "RemStrongAliasTest",
+            "Type": "UncookedOnly",
+            "LoadingPhase": "Default"
         }
     ]
 }
