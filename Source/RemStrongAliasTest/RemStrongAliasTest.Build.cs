@@ -13,7 +13,6 @@ public class RemStrongAliasTest : ModuleRules
 			[
 				"Core",
 
-				"RemCommon",
 				"RemStrongAlias",
 				"strong_alias",
 			]

@@ -35,15 +35,15 @@ void FRemStrongAliasTest::Define()
     {
         It(TEXT("should construct from the underlying value and read back"), [this]
         {
-            FRemStrongAliasTestHealth Health{42};
+            constexpr FRemStrongAliasTestHealth Health{42};
 
             TestEqual(TEXT("value"), Health.value, 42);
         });
 
         It(TEXT("should keep distinct aliases of the same underlying type incompatible"), [this]
         {
-            FRemStrongAliasTestHealth Health{1};
-            FRemStrongAliasTestMana Mana{2};
+            constexpr FRemStrongAliasTestHealth Health{1};
+            constexpr FRemStrongAliasTestMana Mana{2};
 
             // the underlying values differ; the point is both types coexist without
             // implicit cross-assignment
